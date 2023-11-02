@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Open+Sans:ital,wght@1,800&display=swap');
+#image1
+{
+    float: right;
+    max-width: 50%;
+    margin-top: 10px;
+}
+#image2
+{
+    float:left;
+    max-width: 20%;
+}
+video
+{
+    width:350px;
+    align-items: center;
+    padding-left: 10px;
+    overflow: hidden;
+
+
+}
+body
+{
+    background-color: black;
+}
+
+
+
+#button1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    height: 10vh;
+}
+
+#button1
+{
+    float: right;
+    background-color: black;
+    color: dodgerblue;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    text-align: right;
+    width: 50%;
+    border: 2px solid black;
+}
+#image3{
+    max-width: 100%;
+    padding-left: 10px;
+    margin-top: -5px;
+
+}
+.thumb
+{
+    float: left;
+    width: 165px;
+    padding: 10px;
+}
+
+#sponsorbutton
+{
+    background-color: black;
+    color: dodgerblue;
+    cursor: none;
+    padding: 10px 20px;
+    border: none;
+    text-align: right;
+    width: 100%;
+    font-family: 'IBM Plex Mono',monospace;
+    font-size: 20px;
+}
+#sponsorbutton:hover
+{
+    background-color: black;
+}
+.sponsorgrid
+{
+    display: flex;
+
+}
+#sponsorcontent
+{
+    display: none;
+}
+#sponsorcontent.active
+{
+    display: block;
+}
+
+.Collapse.active#sponsorcontent
+{
+    display: block;
+}
+.sponsorimage
+{
+    max-width: 48%;
+    margin-bottom: 10px;
+}
+.thumb2
+{
+    width: 110px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.Collapse
+{
+    background-color: black;
+    color: dodgerblue;
+    cursor: none;
+    padding: 10px 20px;
+    border: none;
+    text-align: right;
+    width: 100%;
+    font-family: 'IBM Plex Mono',monospace;
+    font-size: 20px;
+}
+.Collapse:hover
+{
+    background-color: black;
+
+}
+.content
+{
+    display: none;
+}
+a
+{
+display: block;
+    text-decoration: none;
+    color: black;
+    margin: 10px 0;
+
+}
+.Collapse.active+.content
+{
+    display:block;
+
+}
+.Solo
+{
+    background-color: black;
+    color: dodgerblue;
+    cursor: none;
+    border: none;
+    text-align: right;
+    width: auto;
+    display: block;
+    font-family: 'IBM Plex Mono',monospace;
+    font-size: 20px;
+    margin: 10px 20px;
+}
+
+.sketchfab-embed-wrapper
+{
+    text-align: center;
+}
+
